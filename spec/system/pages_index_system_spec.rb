@@ -4,8 +4,8 @@ RSpec.describe "Exchange Currency Process", :type => :system, js: true do
   it "exchange value" do
     visit '/'
     within("#exchange_form") do
-      select('EUR', from: 'source_currency')
-      select('USD', from: 'target_currency')
+      select('EURO', from: 'source_currency')
+      select('DOLAR DOS EUA', from: 'target_currency')
       fill_in 'amount', with: '10'
     end
     click_button 'CONVERTER'
