@@ -7,8 +7,7 @@ class ExchangeService
     @target_currency = target_currency
     @amount = amount.to_f
   end
- 
- 
+
   def perform
     begin
       exchange_api_url = Rails.application.credentials[Rails.env.to_sym][:currency_api_url]
