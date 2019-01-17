@@ -14,3 +14,4 @@ RSpec.describe "Exchange Currency Process", :type => :system, js: true do
     expect(page).to have_content("value")
   end
 end
+ 
