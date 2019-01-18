@@ -4,6 +4,9 @@ module ExchangesHelper
       ['FAVORITOS',
         [['REAL BRASIL','BRL'], ['EURO','EUR'], ['DOLAR DOS EUA','USD']]
       ],
+      ['CRIPTOMOEDAS',
+        [['BITCOIN', 'BTC']]
+      ],
       ['OUTROS',
         [
           ['DOLAR AUSTRALIANO','AUD'], ['LEV BULGARIA','BGN'], ['DOLAR CANADENSE','CAD'], ['FRANCO SUICO','CHF'],
